@@ -1,0 +1,137 @@
+<!--Diseño de CV online - Proyecto final Argentina Programa 4.0
+    Autor: Claudo Sebastian Acosta --> 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    
+    <link rel="stylesheet" href = "style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f03f901abb.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="square"></div> <!--rectangulo decorativo-->
+ 
+    <section id="seccion_presentante">
+        <div class = "class_div_presentante">
+            <h1><span id=nombre></span> <br> Diseño web</h1>
+        </div>
+        <img id = "imagen_perfil" src="" alt="No se pudo cargar foto de perfil"/>
+    </section>
+ 
+    <section id ="seccion_datos_personales">
+       
+        <div class="class_div_iz">
+            <h2>Contacto</h2>
+            <ul>
+                <li><span class = "class_img_contacto"> <i class="fa-solid fa-mobile-screen" alt="Cel:" ></i>  </span> 
+                    <span id = telefono></span> 
+                </li>
+
+                <li><span class = "class_img_contacto"> <i class="fa-regular fa-envelope" alt="Correo:" > </i> </span>
+                    <span id = correo></span>
+                </li>
+            </ul> 
+       </div>
+
+       <div class="class_div_iz">
+            <h2>Perfil</h2>
+            <ul>  
+                <li>Género:      <span id = genero>       </span> </li>
+                <li>Edad:        <span id = edad>         </span> </li>
+                <li>Nacionalidad:<span id = nacionalidad> </span> </li>
+                <li>Provincia:   <span id = provincia>    </span> </li>
+                <li>Localidad:   <span id = localidad>    </span> </li>
+            </ul> 
+        </div>
+        
+        <div class="class_div_iz">
+            <h2>Formación academica</h2>
+            <ul>  
+                <li>Universitaria</li>
+                <!--Datos adicionales desplegables - Foramacion academica-->
+                <li>Formacion adicional 
+                    <div class = "class_boton_desplegar">
+                        <button id="boton1"> <i class="fa-solid fa-chevron-right"></i> </button>
+                    </div> 
+                    <ul id = ul_cursos class = "class_ul_desplegable"> 
+                        <li>Licenciatura en diseño web   </li>
+                        <li>Licenciatura en programación </li>
+                        <li>2 años curso diseño gráfico</li>
+                    <ul> 
+
+
+                </li>
+
+            </ul> 
+        </div>
+
+    </section>
+
+    <section id ="seccion_datos_laborales">
+
+        <div class="class_div_de">
+            <h3>Objetivos profesionales</h2>
+            <p>  
+                Graduación en la escuela de marketing digital, 
+                motivación alta, en búsqueda de un puesto
+                de tiempo completo en una agencia donde 
+                pueda desarrollar mis conocimientos en el área 
+                a fin de ayudar a lograr las metas 
+                de la organización.
+            </p> 
+       </div>
+
+       <div class="class_div_de">
+            <h3>Experiencia</h2>
+            <p>  
+                Participación en el desarrollo de una app web 
+                para la inscripción de alumnos en el instituto.
+                Desarrollo de web de mini mercado local.
+            </p> 
+        </div>
+        
+        <div class="class_div_de">
+            <h3>Habilidades</h2>
+            <ul>   
+                <!--Datos adicionales desplegables - Habiliades-->
+                <li>Manejo de la paquetería de Office
+                    <div class = "class_boton_desplegar">
+                        <button id="boton2"><i class="fa-solid fa-chevron-right"></i> </button>
+                    </div>
+                    <ul id = ul_habiliades class = "class_ul_desplegable"> 
+                        <li>Excel (Avanzado)</li>
+                        <li>Word            </li>
+                        <li>Power Point     </li>
+                        <li>Access          </li>
+                    </ul>
+                </li>
+                <li>Manejo de Lenguaje Java Script  y HTML5</li>
+                <li>Trabajo en equipo</li>
+                <li>Gran flexibilidad a las circunstancias</li>
+                <li>Sociable</li>
+            </ul> 
+        </div>
+        <div class="class_div_de">
+            <h3>Referencias</h2>
+            <ul>  
+                <li>Daniel Rinaldi - Rector de instituto<br>(cel: (624) 534 1337)</li>
+                <li>Claudio Acosta - Dueño de minimercado<br>(cel: (624) 558 2436)</li>
+            </ul> 
+        </div>
+    </section>
+
+    <script src="scripts.js"></script> 
+
+</body>
+</html>

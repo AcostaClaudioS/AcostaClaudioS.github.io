@@ -1,0 +1,175 @@
+:root{
+    --color-1:#E8F1E7;
+    --color-2:#C6F2C4;
+    --color-3:#6AA367;
+}
+
+body{
+    background-color: var(--color-1);
+    border: 2px solid black;
+    height: 36.40cm;
+    width: 25.69cm;
+    margin: 1cm;
+    float:  center;
+} 
+
+#seccion_datos_personales{
+    width: 9.6cm;
+    margin-left: 1cm;
+    float:left;
+}
+
+#seccion_datos_laborales{
+    width: 12.6cm;
+    margin-left: 1.5cm;
+    float:left;
+    margin-top: 1.3cm;
+}
+
+.square {
+    /*rectangulo decorativo*/   
+    position: absolute;
+    height: 36.40cm;
+    width: 425px;
+    background-color: var(--color-2);
+    
+    z-index: 1;
+}
+
+.class_div_presentante{
+    position: relative;
+    margin-top: 3.1cm;
+    height: 6.2cm;
+
+    background-color: var(--color-3);
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    
+    padding-top: 1%;
+    padding-left: 12cm;
+    padding-bottom: 1%;
+    
+    z-index: 2;
+}
+
+#imagen_perfil{
+    position: absolute;
+    width : 325px; 
+    border: 40px solid white;
+    top:  2cm;
+    left: 2cm;
+    z-index: 3;
+}
+
+.class_div_iz{
+    position: relative;
+    text-align: left;
+
+    margin-top: 2cm;
+    margin-right: 0cm;
+    margin-bottom: 3.5cm;
+    margin-left: 0cm;
+
+    width: 9.5cm;
+    z-index: 4;
+}
+
+.class_div_de{
+    position: relative;
+    text-align:justify;
+    
+    margin-top: 0cm;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+
+    width: 12.5cm;
+    z-index: 5;
+}
+
+h1{
+    background-color: var(--color-3);
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+h2{
+    font-size: 35px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: var(--color-3);
+
+    border-bottom: 5px solid var(--color-3);
+    font-weight: bold;
+    margin-bottom: 0.2cm; 
+}
+
+h3{
+    font-size: 35px;
+    color: black;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+    
+    margin-bottom: 0.2cm; 
+}
+
+p{
+    font-size: 23px;
+    font-family: 'Tilt Neon', cursive;
+
+    padding-left:0;
+    margin-top: 0.2cm; 
+    color: black;      
+}
+
+ul{
+    font-size: 23px;
+    font-family: 'Tilt Neon', cursive;
+    list-style: none;
+    
+    padding-left:0;
+    margin-top: 0.2cm; 
+    color: black;
+}
+
+.class_img_contacto{
+    /*iconos telefono y correo*/
+    position: relative;
+    top: 8px;
+    color: var(--color-3);
+    font-size: 41px;
+}
+
+.class_ul_desplegable{
+    position: absolute;
+    
+    margin: 0px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 0.5cm;
+    height: 0cm;
+    overflow: hidden;
+    opacity: 0%;
+    
+    z-index: 10;
+}
+
+.class_boton_desplegar{
+    position: relative;
+    display: inline;
+}
+
+button {
+    border: none;
+    background: var(--color-3);
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+}
+
+button:hover {
+    background: black;
+}
