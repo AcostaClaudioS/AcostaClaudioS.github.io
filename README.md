@@ -21,6 +21,10 @@ Fuentes importadas de https://fonts.google.com:
 
 Breve descripción de comportamiento  
 ----------------------------------- 
-Al ejecutarse la página se mostrara en pantalla un CV cuyos datos se rellenan con datos aleatorios provistos por https://fontawesome.com mediante Java Script. El mismo código permite que dos botones presentes en el CV desplieguen datos adicionales.  
+Al ejecutarse la página se mostrara en pantalla un CV cuyos datos se rellenan con datos aleatorios provistos por https://fontawesome.com mediante Java Script. El mismo código permite que dos botones presentes en el CV desplieguen datos adicionales. 
+
+PREVIEW
+-------
+![](https://raw.githubusercontent.com/AcostaClaudioS/AcostaClaudioS.github.io/main/Preview.png) 
 
 *Programa Argentina Programa 4.0 Academia Ticmas, "Primeros pasos del Desarrollo Front End"* 
