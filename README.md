@@ -12,7 +12,7 @@ Carga de datos e imagen de personas ficticias con https://randomuser.me.
 Carga de contenido visual decorativo adicional con https://fontawesome.com:  
 - Imagen teléfono: https://fontawesome.com/icons/mobile-screen?s=solid&f=classic  
 - Imagen e-mail:  https://fontawesome.com/icons/envelope?s=regular&f=sharp  
-- Imagen chevron-down: https://fontawesome.com/icons/chevron-down?s=solid&f=classic 
+- Imagen chevron-right: https://fontawesome.com/icons/chevron-right?s=solid&f=classic
 
 Fuentes importadas de https://fonts.google.com:
 
